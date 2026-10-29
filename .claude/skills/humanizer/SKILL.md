@@ -10,7 +10,7 @@ Réécris le texte fourni pour qu'il ne sonne plus comme une IA, sans changer le
 
 ## Entrée
 
-- `$ARGUMENTS` contient soit le texte, soit un chemin de fichier. Si c'est un chemin existant, lis le fichier.
+- Le texte à réécrire est celui que l'utilisateur colle ou joint (dans Claude Code : `$ARGUMENTS`, texte ou chemin de fichier à lire).
 - Rien de fourni : demande le texte. Ne devine pas.
 - `--ton` optionnel (`familier`, `neutre`, `pro`). Par défaut : garde le registre de l'original.
 - Garde la langue d'origine (français ou anglais).
